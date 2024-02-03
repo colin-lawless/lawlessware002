@@ -1,0 +1,38 @@
+[Current_Date]
+
+[Tenant_Name]
+[Unit_Nr]
+Nüßlerstraße 44
+13088 Berlin
+
+Sehr geehrte(r) [Tenant_Name],
+
+wir möchten Sie höflich daran erinnern,
+dass Sie Schulden bei uns in der Höhe von [Debt_Amount]€ haben.
+Laut unserem Vertrag ist die Miete in Höhe von [Rent]€
+monatlich bis spätestens zum Ende des Monats zu entrichten.
+
+Wir bitten Sie, den ausstehenden Betrag bis zum [Date_10]
+auf das folgende Konto zu überweisen:
+
+Bank: Berliner Sparkasse
+Kontoinhaber: Peer Pette
+IBAN: DE1824628326429
+BIC: SCHRUDEXXX
+
+Sollten Sie bereits die Zahlung veranlasst haben,
+betrachten Sie dieses Schreiben bitte als gegenstandslos.
+Bei Fragen oder Unklarheiten stehen wir Ihnen gerne zur Verfügung.
+
+Wir möchten die Gelegenheit nutzen, Sie darauf hinzuweisen,
+dass regelmäßige und pünktliche Mietzahlungen für eine reibungslose
+und angenehme Vermieter-Mieter-Beziehung unerlässlich sind.
+Wir danken Ihnen für Ihre Aufmerksamkeit in dieser Angelegenheit
+und hoffen auf eine baldige Klärung.
+
+Mit freundlichen Grüßen,
+
+Peer Pette
+Pette Immobilien
+0176 237 47236
+petteimmobilien@yahoo.de

@@ -1,0 +1,26 @@
+{
+    "decision_thresholds": {
+        "warning_threshold": 30,
+        "cancel_threshold": 60,
+        "lawsuit_threshold": 80,
+        "eviction_threshold": 90
+    },
+    "action_steps": {
+        "warning": {
+            "document_template": "warning_template.txt",
+            "next_step_days": 15
+        },
+        "cancellation": {
+            "document_template": "cancellation_template.txt",
+            "next_step_days": 30
+        },
+        "eviction": {
+            "document_template": "eviction_template.txt",
+            "legal_proceeding_start": 10
+        },
+        "lawsuit": {
+            "document_template": "lawsuit_template.txt",
+            "next_step_days": 7
+        }
+    }
+}

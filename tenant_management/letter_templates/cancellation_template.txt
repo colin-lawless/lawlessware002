@@ -1,0 +1,50 @@
+[Current_Date]
+
+[Tenant_Name]
+[Unit_Nr]
+Nüßlerstraße 44
+13088 Berlin
+
+Sehr geehrte(r) [Tenant_Name],
+
+mit Bedauern müssen wir feststellen,
+dass Sie mit der Zahlung der Miete in Höhe von
+[Debt_Amount]€  für die Wohnung [Unit_Nr] in Verzug sind.
+Trotz unserer vorherigen Zahlungserinnerung haben wir
+bis zum heutigen Tag keinen Zahlungseingang feststellen können.
+
+Gemäß § 543 Abs. 2 Nr. 3 BGB (Bürgerliches Gesetzbuch)
+führen zwei aufeinanderfolgende Monate mit nicht
+geleisteten oder substantiell verspäteten Mietzahlungen
+zu einem wichtigen Grund, der uns berechtigt,
+das Mietverhältnis fristlos und ohne Einhaltung
+einer Kündigungsfrist zu kündigen.
+
+Hiermit teilen wir Ihnen mit, dass wir das Mietverhältnis
+für die oben genannte Wohnung fristlos kündigen.
+Wir fordern Sie auf, die Wohnung bis spätestens [Date_30]
+zu räumen und in ordnungsgemäßem Zustand an uns zurückzugeben.
+
+Bitte beachten Sie, dass die Pflicht zur Zahlung der
+ausstehenden Miete bis zum Ende des Mietverhältnisses bestehen bleibt.
+Wir erwarten die Begleichung des Betrags von [Debt_Amount]€
+auf das untenstehende Konto bis spätestens [Date_10]:
+
+Bank: Berliner Sparkasse
+Kontoinhaber: Peer Pette
+IBAN: DE1824628326429
+BIC: SCHRUDEXXX
+
+Sollten Sie bereits die Zahlung veranlasst haben,
+informieren Sie uns bitte umgehend. Bei weiteren Fragen
+oder Unklarheiten stehen wir Ihnen gerne zur Verfügung.
+
+Wir bedauern, dass es zu dieser Maßnahme kommen musste,
+und hoffen auf eine ordnungsgemäße und fristgerechte Abwicklung.
+
+Mit freundlichen Grüßen,
+
+Peer Pette
+Pette Immobilien
+0176 237 47236
+petteimmobilien@yahoo.de

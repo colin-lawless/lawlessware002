@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-4">
+    <div class="card">
+        <div class="card-header">
+            <h2>Mass Evaluation Result</h2>
+        </div>
+        <div class="card-body">
+            {% for message in messages %}
+                <p>{{ message }}</p>
+            {% endfor %}
+            {% if documents %}
+                <h3>Generated Documents</h3>
+                <ul class="list-group">
+                    {% for name, doc in documents %}
+                        <li class="list-group-item">
+                            <a href="{{ url_for('download_document', filename=doc) }}">{{ name }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <p>No documents generated.</p>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}
+

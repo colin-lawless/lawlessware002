@@ -1,0 +1,18 @@
+<!-- reports.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-4">
+    <div class="card">
+        <div class="card-header">
+            <h2>Reports</h2>
+        </div>
+        <div class="card-body">
+            <p><a href="{{ url_for('generate_tenant_summary_report') }}" class="btn btn-primary">Generate Tenant Summary Report</a></p>
+            <p><a href="{{ url_for('generate_tenant_debt_report') }}" class="btn btn-primary">Generate Tenant Debt Report</a></p>
+            <p><a href="{{ url_for('generate_tenant_status_report') }}" class="btn btn-primary">Generate Tenant Status Report</a></p>
+            <p><a href="{{ url_for('generate_tenant_overdue_report') }}" class="btn btn-primary">Generate Tenant Overdue Report</a></p>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,22 @@
+<!update_configuration.html>
+{% extends 'base.html' %}
+
+{% block content %}
+<head>
+    <title>Update Configuration</title>
+</head>
+<body>
+    <h2>Update Configuration</h2>
+    <form method="post">
+        <label for="warning_threshold">Warning Threshold:</label><br>
+        <input type="number" id="warning_threshold" name="should_be_warned_threshold" value="{{ config.decision_thresholds['should_be_warned_threshold'] }}"><br>
+        <label for="cancel_threshold">Cancel Threshold:</label><br>
+        <input type="number" id="cancel_threshold" name="should_be_cancelled_threshold" value="{{ config.decision_thresholds['should_be_cancelled_threshold'] }}"><br>
+        <label for="lawsuit_threshold">Lawsuit Threshold:</label><br>
+        <input type="number" id="lawsuit_threshold" name="should_be_sued_threshold" value="{{ config.decision_thresholds['should_be_sued_threshold'] }}"><br>
+        <label for="eviction_threshold">Eviction Threshold:</label><br>
+        <input type="number" id="eviction_threshold" name="should_be_evicted_threshold" value="{{ config.decision_thresholds['should_be_evicted_threshold'] }}"><br>
+        <input type="submit" value="Update Configuration">
+    </form>
+</body>
+{% endblock %}

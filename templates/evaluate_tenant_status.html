@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<head>
+    <title>Evaluate Tenant Status</title>
+</head>
+<body>
+    <h2>Evaluate Status for: {{ tenant.name }}</h2>
+    <!-- Display some basic details of the tenant -->
+    <p>Name: {{ tenant.name }}</p>
+    <p>Debt: {{ tenant.debt }}</p>
+    <p>Rent: {{ tenant.rent }}</p>
+    <p>Days Overdue: {{ tenant.days_overdue }}</p>
+    <p>Status: {{ tenant.status }}</p>
+    <p>Telephone: {{ tenant.telephone }}</p>
+    <p>Email: {{ tenant.email }}</p>
+    <p>Unit Number: {{ tenant.unit_number }}</p>
+    <p>Lease Start: {{ tenant.lease_start }}</p>
+    <p>Notes: {{ tenant.notes }}</p>    
+    <form method="post">
+        <input type="submit" value="Evaluate Status">
+    </form>
+</body>
+{% endblock %}

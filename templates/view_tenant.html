@@ -1,0 +1,35 @@
+<!view_tenant.html>
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-4">
+    <div class="card">
+        <div class="card-header">
+            <h2>Tenant Details</h2>
+        </div>
+        <div class="card-body">
+            <h3 class="card-title">{{ tenant.name }}</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <p><strong>ID:</strong> {{ tenant.tenant_id }}</p>
+                    <p><strong>Debt:</strong> {{ tenant.debt }}</p>
+                    <p><strong>Rent:</strong> {{ tenant.rent }}</p>
+                    <p><strong>Days Overdue:</strong> {{ tenant.days_overdue }}</p>
+                </div>
+                <div class="col-md-6">
+                    <p><strong>Status:</strong> <span class="badge badge-{{ 'success' if tenant.status == 'Active' else 'secondary' }}">{{ tenant.status }}</span></p>
+                    <p><strong>Telephone:</strong> {{ tenant.telephone }}</p>
+                    <p><strong>Email:</strong> {{ tenant.email }}</p>
+                    <p><strong>Unit Number:</strong> {{ tenant.unit_number }}</p>
+                    <p><strong>Lease Start Date:</strong> {{ tenant.lease_start }}</p>
+                    <p><strong>Notes:</strong> {{ tenant.notes }}</p>
+                </div>
+            </div>
+            <a href="{{ url_for('update_tenant', tenant_id=tenant.tenant_id) }}" class="btn btn-primary">Update Tenant</a>
+            <form action="{{ url_for('generate_tenant_document', tenant_id=tenant.tenant_id) }}" method="post" class="d-inline">
+                <button type="submit" class="btn btn-warning">Generate Warning Letter</button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

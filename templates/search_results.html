@@ -1,0 +1,26 @@
+<!search_results.html>
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-4">
+    <div class="card">
+        <div class="card-header">
+            <h2>Search Results for "{{ query }}"</h2>
+        </div>
+        <div class="card-body">
+            {% if tenants %}
+                <h3>Tenants</h3>
+                <ul class="list-group">
+                    {% for tenant in tenants %}
+                        <li class="list-group-item">
+                            <a href="{{ url_for('view_tenant', tenant_id=tenant.tenant_id) }}">{{ tenant.name }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <p>No tenant results found for "{{ query }}".</p>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

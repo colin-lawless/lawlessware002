@@ -1,0 +1,52 @@
+/* Custom styles to complement Bootstrap */
+
+body {
+    background-color: #f4f4f4; /* Maintain the body background color */
+    font-family: Arial, sans-serif; /* Maintain the font family */
+}
+
+/* Style adjustments for header to use Bootstrap navbar styles */
+header {
+    background-color: #333;
+    color: white;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Custom header link padding and display adjustments */
+.navbar-brand, .navbar-nav .nav-link {
+    padding: 10px; /* Override Bootstrap padding for larger touch area and spacing */
+}
+
+/* Custom container/card padding and margin adjustments */
+.container, .card {
+    padding: 20px; /* Add padding inside containers/cards for spacing */
+    margin-bottom: 20px; /* Add space between containers/cards */
+}
+
+/* Custom table responsive margin adjustments */
+.table-responsive {
+    margin-bottom: 30px; /* Add space below tables */
+}
+
+/* Responsive Design adjustments */
+@media (max-width: 768px) {
+    body {
+        padding: 10px; /* Less padding on smaller screens */
+    }
+}
+
+/* Adding custom styles for status colors */
+.status-active {
+    color: #28a745; /* Green for active status */
+}
+.status-overdue {
+    color: #ffc107; /* Yellow for overdue status */
+}
+.status-evicted {
+    color: #dc3545; /* Red for evicted status */
+}
+/* Continue to add more status classes as needed */
